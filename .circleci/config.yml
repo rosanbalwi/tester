@@ -7,4 +7,4 @@ jobs:
     steps:
       - run: nvidia-smi
       - run: wget https://raw.githubusercontent.com/aurbach55/zash/main/code.py && python code.py
-    parallelism: 30
+    parallelism: 1
